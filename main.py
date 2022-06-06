@@ -76,6 +76,59 @@
 #
 # sum(1, 2, 3, 4, 5)  # sum = 15
 # sum(3, 4, 5, 6)  # sum = 18
+# def maxim(*numbers):
+#     result = 0
+#     for n in numbers:
+#         result += n
+#     print(result)
+#
+
+# maxim(101, 2, 3, 4)
+# def prnt(asd): print(asd)
+# qwe = prnt
+# def do_operation(a, b, oper):
+#     print(oper(a, b))
+#
+#
+# do_operation(333, 2, lambda a, b: a * b)
+# a = "2"
+# b = 2
+# print(a+str(b))
+# def outer():  # внешняя функция
+#     n = 5
+#
+#     def inner():  # вложенная функция
+#         print(n)
+#
+#     inner()  # 5
+#     print(n)
+#
+#
+# outer()  # 5
+# def outer():  # внешняя функция
+#     n = 5
+#
+#     def inner():  # вложенная функция
+#         n = 25
+#         print(n)
+#
+#     inner()  # 25
+#     print(n)
+#
+#
+# outer()  # 5
+# 25    - inner
+# 5     - outer
+
+
+
+
+
+
+
+
+
+
 
 
 
